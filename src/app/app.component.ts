@@ -1,11 +1,13 @@
-import { CommonModule } from "@angular/common";
-import { Component, computed, signal } from "@angular/core";
+import { CommonModule } from '@angular/common';
+import { Component, computed, signal } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'my-app',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: `./app.component.html`,
+  styles: ['./app.component.scss'],
 })
 export class AppComponent {
   name = 'Angular';

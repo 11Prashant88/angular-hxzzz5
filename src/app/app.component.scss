@@ -1,0 +1,11 @@
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  align-items: flex-start;
+  list-style: none;
+  
+  .list-item{
+    color:white
+  }
+}
